@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,800&display=swap');
+
+*{
+    font-family: poppins,sans-serif;
+    
+    margin: 0;
+max-width: 100%;
+
+
+    
+}
+.foto{
+    width: 300px;
+    height: 360px;
+
+ margin: 10%;
+ 
+ margin-top: 20%;
+
+
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 20px 20px 25px 20px;
+    
+}
+    body,html{
+    margin: 0;
+    background-color: rgba(255, 228, 196, 0.72);
+    width: 100%;
+     overflow-x: hidden;
+    }
+    .nina{
+        text-align: center;
+    }
+
+
+  
+h1{
+    text-align: center;
+    margin-top: -10%;
+}
+
+#topicos{
+    text-align: left;
+    font-weight: 15px;
+
+}
+    .minha{
+        width: 300px;
+        padding: 20px;
+        
+}
+    header{
+    background-color:black;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+
+
+}
+
+li:hover{
+    background-color: aqua;
+}
+    @media all and (max-width:992px){
+       body{
+        overflow-x: hidden;
+       }
+        #menu{
+        visibility: hidden;
+    }
+    .coluna{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;}
+        #logodiv{
+            width: 100%;
+            position: relative;
+            text-align: center;
+            padding: 0px;
+        }
+        #logo{
+        
+            transform: translatex(150%);
+            
+        }
+        
+    }
+    #logo{
+        width: 170px; 
+    position: absolute;
+    margin-top: 0;
+    margin-left: 10%;
+    
+    }
+    .justificado{
+text-align: center;
+font-style: italic;
+ }
+    footer{
+        background-color: black;
+    text-align: left;
+    padding: 20px;
+    color:white;
+    
+    }
+
